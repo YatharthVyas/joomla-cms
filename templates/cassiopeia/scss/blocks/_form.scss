@@ -75,29 +75,29 @@ td .form-control {
   z-index: $zindex-tooltip;
   display: none;
   max-width: 100%;
-  padding: .5em;
-  margin: .5em;
+  padding: 0.5em;
+  margin: 0.5em;
   color: $black;
   background: $white;
   border: 1px solid $gray-600;
   border-radius: $border-radius;
-  box-shadow: 0 0 .5rem rgba(0, 0, 0, .8);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.8);
 
-  &[id^=editarticle-] {
+  &[id^="editarticle-"] {
     right: auto;
     margin-inline-start: -10em;
   }
 
-  &[id^=editcontact-] {
+  &[id^="editcontact-"] {
     right: auto;
     margin-inline-start: -10em;
   }
 
-  [dir=ltr] & {
+  [dir="ltr"] & {
     text-align: left;
   }
 
-  [dir=rtl] & {
+  [dir="rtl"] & {
     text-align: right;
   }
 }
@@ -114,9 +114,9 @@ td .form-control {
 }
 
 fieldset {
-  margin-bottom: $cassiopeia-grid-gutter*2;
+  margin-bottom: $cassiopeia-grid-gutter * 2;
   + fieldset {
-    margin-top: $cassiopeia-grid-gutter*2;
+    margin-top: $cassiopeia-grid-gutter * 2;
   }
 
   > * {
@@ -127,11 +127,8 @@ fieldset {
 .control-group {
   margin: $cassiopeia-grid-gutter 0;
 }
+
 .container-popup [id="filter[search]-desc"] {
   top: 100%;
   bottom: auto;
-}
-
-.com-users-login__options {
-  margin-top: $cassiopeia-grid-gutter*2;
 }
