@@ -75,9 +75,9 @@
       }
     },
     {
-      "name": "com_users.users",
+      "name": "com_users.login",
       "type": "style",
-      "uri": "com_users/users.min.css"
+      "uri": "com_users/login.min.css"
     }
   ]
 }

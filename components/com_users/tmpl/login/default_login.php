@@ -9,7 +9,7 @@
 
 defined('_JEXEC') or die;
 
-$this->document->getWebAssetManager()->useStyle('com_users.users');
+$this->document->getWebAssetManager()->useStyle('com_users.login');
 
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\HTML\HTMLHelper;
