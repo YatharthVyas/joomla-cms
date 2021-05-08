@@ -9,6 +9,9 @@
 
 defined('_JEXEC') or die;
 
+// Add styles for options
+$this->document->getWebAssetManager()->useStyle('com_users.users');
+
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Language\Text;

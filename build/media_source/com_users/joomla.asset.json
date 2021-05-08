@@ -73,6 +73,11 @@
       "attributes": {
         "type": "module"
       }
+    },
+    {
+      "name": "com_users.users",
+      "type": "style",
+      "uri": "com_users/users.min.css"
     }
   ]
 }
