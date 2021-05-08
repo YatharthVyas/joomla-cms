@@ -122,6 +122,11 @@
       }
     },
     {
+      "name": "com_content.content",
+      "type": "style",
+      "uri": "com_content/content.min.css"
+    },
+    {
       "name": "com_content.form-edit.es5",
       "type": "script",
       "uri": "com_content/form-edit-es5.min.js",

@@ -9,6 +9,9 @@
 
 defined('_JEXEC') or die;
 
+// Import Styles for Pagination and Article List
+$this->document->getWebAssetManager()->useStyle('com_content.content');
+
 use Joomla\CMS\Component\ComponentHelper;
 use Joomla\CMS\Factory;
 use Joomla\CMS\HTML\HTMLHelper;
